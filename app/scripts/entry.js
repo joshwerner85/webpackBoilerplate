@@ -33,24 +33,45 @@ const tshirts = [
 ]
 
 	const basicView = Backbone.View.extend({
-	initialize:function(){	
-		
+	initialize:function(urlFront){	
+		this.urlFront = urlFront;
 	},
 	template: function() {
-		return `<div><img src="${this.urlFront}"</div>`
+		return `<div><div class="menu">
+		<i class="fa fa-repeat"></i></div><img class="imgstyle" src="${this.urlFront}"></div>`
 		 // return `<a class="linkme" href="${this.url}">${this.linkName}</a>`
 	},
 	tagName:'div',
 	render:function(){
-		this.$el.html(this.template());
-		$('body').append(this.e)	
+		this.$el.append(this.template());
+		$('body').append(this.el)	
 	}
 });
 
-	var firstShirt = new basicView('http://fillmurray.com/250/250');
+// 	const basicView = Backbone.View.extend({
+// 	initialize:function(title){	
+// 		this.title = title;
+// 	},
+// 	template: function() {
+// 		return `<div><img class="imgstyle" src="${this.title}"></div>`
+// 		 // return `<a class="linkme" href="${this.url}">${this.linkName}</a>`
+// 	},
+// 	tagName:'div',
+// 	render:function(){
+// 		this.$el.append(this.template());
+// 		$('body').append(this.el)	
+// 	}
+// });
 
+
+// 	var title1 = new basicView(title[0].title);
+
+	var firstShirt = new basicView(tshirts[0].imageUrlFront);
+	var secondShirt = new basicView(tshirts[1].imageUrlBack);
+	var thirdShirt = new basicView(tshirts[2].imageUrlBack)
 	firstShirt.render();
-
+	// secondShirt.render();
+	// title1.render();
 
 
 
