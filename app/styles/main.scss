@@ -3,3 +3,25 @@
 body {
   background: $light-grey;
 }
+
+
+.linkme {
+	color:red;
+	text-decoration:none;
+	font-size: xx-large;
+}
+ 
+
+.linkme:hover {
+	color:blue;
+	text-decoration:none;
+	font-size: xx-large;
+} 
+
+.box {
+	width:200px;
+	height:200px;
+	background:black;
+	border:1px solid red;
+	display: inline-block;
+}
