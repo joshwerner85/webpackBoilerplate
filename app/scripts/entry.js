@@ -33,20 +33,35 @@ const tshirts = [
 ]
 
 	const basicView = Backbone.View.extend({
+	initialize:function(){	
+		
+	},
+	template: function() {
+		return `<div><img src="${this.urlFront}"</div>`
+		 // return `<a class="linkme" href="${this.url}">${this.linkName}</a>`
+	},
+	tagName:'div',
+	render:function(){
+		this.$el.html(this.template());
+		$('body').append(this.e)	
+	}
+});
 
-	});
+	var firstShirt = new basicView('http://fillmurray.com/250/250');
+
+	firstShirt.render();
+
+
 
 
 // const basicView = Backbone.View.extend({
-  // initialize: function(url, linkName) {
-  //   this.url = url;
-  //   this.linkName = linkName;
-  // },
-  // template: function() {
-  //   return `<a class="linkme" href="${this.url}">${this.linkName}</a>
-  
-  // `
-  // },
+//   initialize: function(url, linkName) {
+//     this.url = url;
+//     this.linkName = linkName;
+//   },
+//   template: function() {
+//     return `<a class="linkme" href="${this.url}">${this.linkName}</a>`
+//   },
 //   tagName: 'div',
 //   render: function() {
 //     this.$el.html(this.template());
