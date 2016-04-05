@@ -5,7 +5,7 @@ import Backbone from 'backbone';
 import $ from 'jquery';
 
 
-const t-shirts = [
+const tshirts = [
   {
     id: 1,
     imageUrlFront: "http://fillmurray.com/250/250",
@@ -33,20 +33,20 @@ const t-shirts = [
 ]
 
 	const basicView = Backbone.View.extend({
-		
+
 	});
 
 
 // const basicView = Backbone.View.extend({
-//   initialize: function(url, linkName) {
-//     this.url = url;
-//     this.linkName = linkName;
-//   },
-//   template: function() {
-//     return `<a class="linkme" href="${this.url}">${this.linkName}</a>
+  // initialize: function(url, linkName) {
+  //   this.url = url;
+  //   this.linkName = linkName;
+  // },
+  // template: function() {
+  //   return `<a class="linkme" href="${this.url}">${this.linkName}</a>
   
-//   `
-//   },
+  // `
+  // },
 //   tagName: 'div',
 //   render: function() {
 //     this.$el.html(this.template());
