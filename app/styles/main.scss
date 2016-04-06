@@ -4,30 +4,19 @@ body {
   background: $light-grey;
 }
 
-
-.linkme {
-	color:red;
-	text-decoration:none;
-	font-size: xx-large;
+// CONTAINERS
+.main-container {
+    width: 104%;
+    height: 354px;
+    background: #CECECE;
+    display: block;
 }
  
-
-.linkme:hover {
-	color:blue;
-	text-decoration:none;
-	font-size: xx-large;
-} 
-
- 
- 
-
- div {
+div {
  	display: inline-block;
  	margin-left:10px;
  	margin-top:10px;
  }
-
-  
 
 .image-placeholder {
     height: 25px;
@@ -36,80 +25,26 @@ body {
     margin: -2px 181px;
 }
 
-
-.bottom-box-1 {
-    width: 40px;
-    height: 40px;
-    /* background: black; */
-    margin: 133px -2px;
-    border: 2px solid black;
-}
-
-.bottom-box-2 {
-    width: 40px;
-    height: 40px;
-    /* background: black; */
-    margin: -177px 40px;
-    border: 2px solid black;
-}
-
-.bottom-box-3 {
-    width: 40px;
-    height: 40px;
-    /* background: black; */
-    margin: 133px 82px;
-    border: 2px solid black;
-}
-
-.bottom-box-4 {
-    width: 40px;
-    height: 40px;
-    /* background: black; */
-    margin: -177px 40px;
-    border: 2px solid black;
-}
-
-.bottom-box-5 {
-    width: 40px;
-    height: 40px;
-    /* background: black; */
-    margin: 133px 124px;
-    border: 2px solid black;
-}
-.bottom-box-6 {
-    width: 40px;
-    height: 40px;
-    /* background: black; */
-    margin: -177px 166px;
-    border: 2px solid black;
-}
-
-.fa {
-    display: inline-block;
-    font: normal normal normal 14px/1 FontAwesome;
-    font-size: inherit;
-    text-rendering: auto;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    margin-left: -53px;
-    margin-top: 20px;
-}
-
-
 .imgstyle {
     height: 201px;
     width: 208px;
     display: inline;
     margin-top: -30px;
     margin-left: 0px;
+}
+
+.box {
+    border: 2px solid red;
+    height: 212px;
+    width: 208px;
+    float: left;
+    margin: 14px 31px;
 } 
 
+// CONTAINERS END
 
+// BUTTONS START
 
-i.fa.fa-square-o {
-    margin-left: 14px;
-    margin-top: 13px;
-}
 .refresh {
     width: 40px;
     height: 40px;
@@ -152,33 +87,6 @@ i.fa.fa-square-o {
     margin: 8px -2px;
 }
 
-.box {
-    border: 2px solid red;
-    height: 212px;
-    width: 208px;
-    float: left;
-    margin: 14px 31px;
-}
-
-.price {
-    margin-left: 67px;
-    font-weight: 900;
-    color: red;
-    font-family: arial;
-}
-
-.title {
-    color: red;
-    font-family: centurygothic;
-    font-size: medium;
-    margin-left:0px;
-}
-
-i.fa.fa-recycle {
-    margin-left: 14px;
-    margin-top: 13px;
-}
-
 .refresh:hover {
      
     background:red;
@@ -187,16 +95,6 @@ i.fa.fa-recycle {
 .refresh2:hover {
      
     background:red;
-}
-
-i.fa.fa-heart {
-    margin-left: 14px;
-    margin-top: 13px;
-}
-
-p {
-    margin-left: 9px;
-    margin-top: 12px;
 }
 
 .refresh3:hover{
@@ -209,6 +107,31 @@ p {
 
 .refresh5:hover{
 	background:red;
+}
+
+i.fa.fa-recycle {
+    margin-left: 14px;
+    margin-top: 13px;
+}
+
+i.fa.fa-heart {
+    margin-left: 14px;
+    margin-top: 13px;
+}
+
+p {
+    margin-left: 9px;
+    margin-top: 12px;
+}
+
+i.fa.fa-square-o {
+    margin-left: 14px;
+    margin-top: 13px;
+}
+
+i.fa.fa-shopping-cart {
+    margin-left: 14px;
+    margin-top: 13px;
 }
 
 i.fa.fa-share {
@@ -234,27 +157,28 @@ i.fa.fa-share:hover {
     line-height: 35px;
 }
 
-i.fa.fa-shopping-cart {
-    margin-left: 14px;
-    margin-top: 13px;
+.price {
+    margin-left: 67px;
+    font-weight: 900;
+    color: red;
+    font-family: arial;
+}
+
+.title {
+    color: red;
+    font-family: centurygothic;
+    font-size: medium;
+    margin-left:0px;
 }
 
 
-.main-container {
-    width: 104%;
-    height: 354px;
-    background: #CECECE;
-    display: block;
-}
-// .square {
-//     width: 30px;
-//     height: 30px;
-//     background: red;
-//     margin: 6px 4px;
-// }
+ 
 
 
-// .i.fa.fa-square{
-// 	margin-left: 14px;
-//     margin-top: 13px;
-// }
+
+
+
+
+
+
+
