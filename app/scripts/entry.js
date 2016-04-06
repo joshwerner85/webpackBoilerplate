@@ -45,7 +45,7 @@ const tshirts = [
     	 <div class="refresh2"><i class="fa fa-heart"></i></div>
     	 <div class="refresh3"><p>XL</p></div>
     	 <div class="refresh4"><i class="fa fa-square-o"></i></div>
-    	 <div class="refresh5"><i class="fa fa-square-o"></i></div>
+    	 <div class="refresh5"><i class="fa fa-shopping-cart"></i></i></div>
       
             <div class="title">${tshirts[this.i].title}</div>
             <div class="price">$${tshirts[this.i].price}</div>
