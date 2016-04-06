@@ -8,8 +8,10 @@ body {
 .main-container {
     width: 104%;
     height: 354px;
-    background: #CECECE;
+    background: #fefefe;
     display: block;
+    border-top: 2px solid #E4D9D9;
+    border-bottom: 2px solid #E4D9D9;
 }
  
 div {
@@ -34,7 +36,7 @@ div {
 }
 
 .box {
-    border: 2px solid red;
+    border: 2px solid blue;
     height: 212px;
     width: 208px;
     float: left;
@@ -48,94 +50,129 @@ div {
 .refresh {
     width: 40px;
     height: 40px;
-    border: 2px solid red;
+    border: 2px solid blue;
     margin: -2px -2px;
 }
 
 .refresh {
     width: 40px;
     height: 40px;
-    border: 2px solid red;
+    border: 2px solid blue;
     margin: -2px -2px;
 }
 
 .refresh2 {
     width: 40px;
     height: 40px;
-    border: 2px solid red;
+    border: 2px solid blue;
     margin: 1px -4px;
 }
 
 .refresh3 {
     width: 40px;
     height: 40px;
-    border: 2px solid red;
+    border: 2px solid blue;
     margin: 2px -2px;
 }
 
 .refresh4 {
     width: 40px;
     height: 40px;
-    border: 2px solid red;
+    border: 2px solid blue;
     margin: 2px -4px;
 }	
 
 .refresh5 {
     width: 40px;
     height: 40px;
-    border: 2px solid red;
+    border: 2px solid blue;
     margin: 8px -2px;
 }
 
 .refresh:hover {
      
-    background:red;
+    background:blue;
 }
 
 .refresh2:hover {
      
-    background:red;
+    background:blue;
 }
 
 .refresh3:hover{
-	background:red;
+	background:blue;
 }
 
 .refresh4:hover{
-	background:red;
+	background:blue;
 }
 
 .refresh5:hover{
-	background:red;
+	background:blue;
 }
 
 i.fa.fa-recycle {
     margin-left: 14px;
     margin-top: 13px;
+    color: blue;
+}
+
+i.fa.fa-recycle:hover {
+    margin-left: 14px;
+    margin-top: 13px;
+    color: white;
 }
 
 i.fa.fa-heart {
     margin-left: 14px;
     margin-top: 13px;
+    color:blue;
+}
+
+i.fa.fa-heart:hover {
+    margin-left: 14px;
+    margin-top: 13px;
+    color:white;
 }
 
 p {
     margin-left: 9px;
     margin-top: 12px;
+    color:blue;
+}
+
+p:hover {
+    margin-left: 9px;
+    margin-top: 12px;
+    color:white;
 }
 
 i.fa.fa-square-o {
     margin-left: 14px;
     margin-top: 13px;
+    color:blue;
+}
+
+i.fa.fa-square-o:hover {
+    margin-left: 14px;
+    margin-top: 13px;
+    color:white;
 }
 
 i.fa.fa-shopping-cart {
     margin-left: 14px;
     margin-top: 13px;
+    color:blue;
+}
+
+i.fa.fa-shopping-cart:hover {
+    margin-left: 14px;
+    margin-top: 13px;
+    color:white;
 }
 
 i.fa.fa-share {
-    border: 2px solid red;
+    border: 2px solid blue;
     width: 40px;
     height: 40px;
     margin-left: -75px;
@@ -146,8 +183,8 @@ i.fa.fa-share {
 }
 
 i.fa.fa-share:hover {
-	background:red;
-    border: 2px solid red;
+	background:blue;
+    border: 2px solid blue;
     width: 40px;
     height: 40px;
     margin-left: -75px;
@@ -160,12 +197,12 @@ i.fa.fa-share:hover {
 .price {
     margin-left: 67px;
     font-weight: 900;
-    color: red;
+    color: blue;
     font-family: arial;
 }
 
 .title {
-    color: red;
+    color: blue;
     font-family: centurygothic;
     font-size: medium;
     margin-left:0px;
