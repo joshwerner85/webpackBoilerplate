@@ -18,12 +18,8 @@ body {
 	font-size: xx-large;
 } 
 
- .imgstyle {
- 	height:200px;
- 	width:200px;
- 	border:1px solid red;
- 	display:inline;
- }
+ 
+ 
 
  div {
  	display: inline-block;
@@ -31,13 +27,7 @@ body {
  	margin-top:10px;
  }
 
- .box {
-    border: 2px solid black;
-    height: 200px;
-    width: 208px;
-    float: left;
-    margin: 14px 31px;
-}
+  
 
 .image-placeholder {
     height: 25px;
@@ -92,4 +82,90 @@ body {
     /* background: black; */
     margin: -177px 166px;
     border: 2px solid black;
+}
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin-left: -53px;
+    margin-top: 20px;
+}
+
+
+.imgstyle {
+    height: 201px;
+    width: 208px;
+    display: inline;
+    margin-top: -30px;
+    margin-left: 0px;
 } 
+
+
+
+i.fa.fa-square-o {
+    margin-left: 14px;
+    margin-top: 13px;
+}
+.refresh {
+    width: 40px;
+    height: 40px;
+    border: 2px solid red;
+    margin: -2px -2px;
+}
+
+.refresh {
+    width: 40px;
+    height: 40px;
+    border: 2px solid red;
+    margin: -2px -2px;
+}
+
+.refresh2 {
+    width: 40px;
+    height: 40px;
+    border: 2px solid red;
+    margin: 1px -4px;
+}
+
+.refresh3 {
+    width: 40px;
+    height: 40px;
+    border: 2px solid red;
+    margin: 2px -2px;
+}
+
+.refresh4 {
+    width: 40px;
+    height: 40px;
+    border: 2px solid red;
+    margin: 2px -4px;
+}	
+
+.refresh5 {
+    width: 40px;
+    height: 40px;
+    border: 2px solid red;
+    margin: 8px -2px;
+}
+
+.box {
+    border: 2px solid red;
+    height: 212px;
+    width: 208px;
+    float: left;
+    margin: 14px 31px;
+}
+
+.price {
+    text-align: right;
+    margin-left: 67px;
+}
+
+.title {
+    margin-left: 0px;
+}
+
