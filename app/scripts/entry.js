@@ -41,9 +41,9 @@ const tshirts = [
 		 
   <div class="box">
     <div class="image-placeholder"></div><img class="imgstyle" src="${tshirts[this.i].imageUrlFront}">
-    	 <div class="refresh"><i class="fa fa-square-o"></i></div>
-    	 <div class="refresh2"><i class="fa fa-square-o"></i></div>
-    	 <div class="refresh3"><i class="fa fa-square-o"></i></div>
+    	 <div class="refresh"><i class="fa fa-recycle"></i></div>
+    	 <div class="refresh2"><i class="fa fa-heart"></i></div>
+    	 <div class="refresh3"><p>XL</p></div>
     	 <div class="refresh4"><i class="fa fa-square-o"></i></div>
     	 <div class="refresh5"><i class="fa fa-square-o"></i></div>
       
