@@ -161,12 +161,17 @@ i.fa.fa-square-o {
 }
 
 .price {
-    text-align: right;
     margin-left: 67px;
+    font-weight: 900;
+    color: red;
+    font-family: arial;
 }
 
 .title {
-    margin-left: 0px;
+    color: red;
+    font-family: centurygothic;
+    font-size: medium;
+    margin-left:0px;
 }
 
 i.fa.fa-recycle {
@@ -234,6 +239,13 @@ i.fa.fa-shopping-cart {
     margin-top: 13px;
 }
 
+
+.main-container {
+    width: 104%;
+    height: 354px;
+    background: #CECECE;
+    display: block;
+}
 // .square {
 //     width: 30px;
 //     height: 30px;

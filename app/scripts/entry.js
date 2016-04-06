@@ -36,7 +36,7 @@ const tshirts = [
 		this.i = i;
 	},
 	template: function() {
-		return `<div class="container">
+		return `<div class="main-container"><div class="container">
 		<span><i class="fa fa-share"></i></span>
 		 
   <div class="box">
@@ -50,7 +50,7 @@ const tshirts = [
             <div class="title">${tshirts[this.i].title}</div>
             <div class="price">$${tshirts[this.i].price}</div>
     </div> <!-- End box Div -->
-</div>`
+</div></div>`
 		  
 	},
 	
